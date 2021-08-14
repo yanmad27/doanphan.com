@@ -14,10 +14,9 @@ const Information = () => {
         "\tmoney++\n" +
         "}\n"}</div>
         <div className={styles.information__channel}>📫 How to reach me: <a href="mailto:yanmad27@gmail.com?[doanphan.com]subject=I see your website ">yanmad27@gmail.com</a></div>
-        <div className={styles.information__channel}>📫 Github: <a href="https://github.com/yanmad27/">https://github.com/yanmad27/</a></div>
-        <div className={styles.information__channel}>📫 About me: <a href="https://doanphan.com./">https://doanphan.com./</a></div>
-        <div className={styles.information__channel}>📫 Youtube Channel:
-          https://<a href="www.youtube.com/channel/UC1V_v2SDR-eGUQwtRt2LnzQ">www.youtube.com/channel/UC1V_v2SDR-eGUQwtRt2LnzQ</a>
+        <div className={styles.information__channel}>📫 Github: <a href="https://github.com/yanmad27/" target={"_blank"} rel={"noreferrer"}>github.com/yanmad27</a></div>
+        <div className={styles.information__channel}>📫 About me: <a href="https://doanphan.com/" target={"_blank"} rel={"noreferrer"}>doanphan.com</a></div>
+        <div className={styles.information__channel}>📫 Youtube Channel: <a href="https://www.youtube.com/channel/UC1V_v2SDR-eGUQwtRt2LnzQ" target={"_blank"} rel={"noreferrer"}>youtube.com/channel</a>
         </div>
       </div>
     </div>
