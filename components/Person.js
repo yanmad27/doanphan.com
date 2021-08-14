@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import Redirect from 'next/'
 export default function Person({ person }) {
   return (
     <li>
