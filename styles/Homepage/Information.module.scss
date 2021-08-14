@@ -1,0 +1,46 @@
+.information {
+  width: 100%;
+  height: calc(100vh - 16px);
+  position: relative;
+
+  .information__bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .information__info {
+    padding-left: 60px;
+    position: relative;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .information__name {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 260px 12px 12px;
+  }
+
+  .information__position {
+    margin: 12px;
+  }
+
+  .information__dream {
+    margin: 12px;
+    background: #8080801f;
+    white-space: pre;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 4px;
+
+  }
+
+  .information__channel {
+    margin: 3px;
+  }
+
+}

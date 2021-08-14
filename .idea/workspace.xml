@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e8d0245-91ae-401e-8121-8175542887d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Homepage/Homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/homepage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Homepage/Homepage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Homepage/Information.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bg-homepage-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Homepage/Information.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Homepage/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Homepage/Homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Homepage/Homepage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Homepage/Homepage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +40,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.next/app.json" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Homepage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles/Homepage" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles/Homepage" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/components/Homepage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -69,7 +69,8 @@
       <updated>1628844407410</updated>
       <workItem from="1628844408989" duration="255000" />
       <workItem from="1628844717720" duration="41000" />
-      <workItem from="1628920367781" duration="7138000" />
+      <workItem from="1628920367781" duration="12555000" />
+      <workItem from="1628945666852" duration="381000" />
     </task>
     <servers />
   </component>
