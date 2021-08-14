@@ -32,7 +32,7 @@ pipeline {
           catch (exception) {
           }
         }
-        sh "docker run -d --name ${DOCKER_IMAGE} -p 3000:3000 --rm ${DOCKER_IMAGE}"
+        sh "docker run -d --name ${DOCKER_IMAGE} -p 1205:3000 --rm ${DOCKER_IMAGE}"
       }
     }
   }
