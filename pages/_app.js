@@ -1,21 +1,20 @@
-// import App from 'next/app'
+import { ChakraProvider } from '@chakra-ui/react'
+import Layout from '../components/layouts/main'
+import Fonts from '../components/fonts'
+import theme from '../lib/theme'
+import { AnimatePresence } from 'framer-motion'
 
-function MyApp({Component, pageProps}) {
+function Website({ Component, pageProps, router }) {
   return (
-    <Component {...pageProps} />
-  );
+    <ChakraProvider theme={theme}>
+      <Fonts />
+      <Layout router={router}>
+        <AnimatePresence exitBeforeEnter initial={true}>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+      </Layout>
+    </ChakraProvider>
+  )
 }
 
-// Only uncomment this method if you have blocking data requirements for
-// every single page in your application. This disables the ability to
-// perform automatic static optimization, causing every page in your app to
-// be server-side rendered.
-//
-// MyApp.getInitialProps = async (appContext) => {
-//   // calls page's `getInitialProps` and fills `appProps.pageProps`
-//   const appProps = await App.getInitialProps(appContext);
-//
-//   return { ...appProps }
-// }
-
-export default MyApp;
+export default Website
